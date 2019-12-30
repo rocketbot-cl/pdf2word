@@ -1,0 +1,119 @@
+{
+    "author":"Marcela Vergara",
+    "description": "Convierte un PDF a Word",
+    "disclaimer":"THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.",
+    "version":"0.1",
+    "license": "MIT",
+    "homepage":"http://rocketbot.co/",
+    "linux": true,
+    "windows":true,
+    "mac":true,
+    "docker":true,
+    "name": "pdf2word",
+    "dependencies": {
+        "groupdocs-conversion-cloud": "19.5"
+    },
+    "title": {
+        "en": "Pdf2Word",
+        "es": "Pdf2Word"
+    },
+    "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyOCAxNzAiIGhlaWdodD0iMTcwcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjggMTcwIiB3aWR0aD0iMTI4cHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnPjxwYXRoIGQ9Ik02My43OTgsMTIxSDU5djIyaDUuNDIyYzMuNzA5LDAsNi41Ni0xLjAyMyw4LjU1NC0yLjg5NmMxLjk5My0xLjg3MSwyLjk5LTQuNjM3LDIuOTktOC4yMDcgICBzLTAuOTk3LTYuMjAyLTIuOTktOC4xMjdDNzAuOTgxLDEyMS44NDYsNjcuOTIzLDEyMSw2My43OTgsMTIxeiIgZmlsbD0iIzIzMUYyMCIvPjxwYXRoIGQ9Ik0zNy43MjEsMTIyLjEzNmMtMS4yNjctMC44ODQtMy4yMzMtMS4xMzYtNS45MDItMS4xMzZIMjd2MTJoNS42NWMyLjcwNCwwLDQuNTQxLTAuNjI2LDUuNTEyLTEuNzE4ICAgYzAuOTcxLTEuMDkzLDEuNDU2LTIuNjMxLDEuNDU2LTQuNzI5QzM5LjYxOCwxMjQuNDU2LDM4Ljk4NSwxMjMuMDIsMzcuNzIxLDEyMi4xMzZ6IiBmaWxsPSIjMjMxRjIwIi8+PHBhdGggZD0iTTEyNy42MTMsMjlsMC4wMDQtMC4wMDRMOTksMC4zNzlWMGgtMC4zNzlsLTAuMTE3LTAuMTE3TDk4LjM4NywwSDEwQzQuNDc4LDAsMCw0LjQ3NywwLDEwdjE1MCAgIGMwLDUuNTIzLDQuNDc4LDEwLDEwLDEwaDEwOGM1LjUyMiwwLDEwLTQuNDc3LDEwLTEwVjI5SDEyNy42MTN6IE00NC4wMTMsMTM2LjgxMUM0MS4zOTUsMTM4Ljg5LDM3LjM5OSwxNDAsMzIuMDI2LDE0MEgyN3YxMGgtOCAgIHYtMzZoMTIuOTIzYzUuNTgxLDAsOS42NDYsMC45MSwxMi4xOTMsMy4wNzZjMi41NDgsMi4xNjcsMy44MjIsNS40NDMsMy44MjIsOS45MzJDNDcuOTM4LDEzMS40OTgsNDYuNjMsMTM0LjczLDQ0LjAxMywxMzYuODExeiAgICBNNzkuMDYsMTQ1LjA2MUM3NS42OCwxNDguMzU0LDcwLjUyMiwxNTAsNjMuNTksMTUwSDUxdi0zNmgxMy4wMDZjNi40ODEsMCwxMS40NTcsMS40MTIsMTQuOTI0LDQuNTg0ICAgYzMuNDY2LDMuMTcyLDUuMiw3LjQ5Niw1LjIsMTMuMTQ2Qzg0LjEzLDEzNy4zODIsODIuNDM5LDE0MS43NjgsNzkuMDYsMTQ1LjA2MXogTTExMywxMjFIOTZ2OGgxNnY3SDk2djE0aC04di0zNmgyNVYxMjF6IE0xMDksMjkgICBjLTUuNTIyLDAtMTAtNC40NzctMTAtMTBWNC42MjJMMTIzLjM3OSwyOUgxMDl6IiBmaWxsPSIjMjMxRjIwIi8+PC9nPjwvc3ZnPg==",
+    "children": [
+
+        {
+            "en": {
+                "title": "PDF to Word",
+                "description": "PDF to Word",
+                "title_options": "Select Option",
+                "options":null
+            },
+            "es": {
+                "title": "PDF a Word",
+                "description": "PDF a Word",
+                "title_options": "Seleccione una opción",
+                "options": null
+            },
+            "form": {
+                "css": "modal-lg",
+                "inputs": [
+                    {
+                        "type": "input",
+                        "placeholder": {
+                            "es": "95c04gf63-ea54-4b32-9c26-5dsd7b5218cq",
+                            "en": "95c04gf63-ea54-4b32-9c26-5dsd7b5218cq"
+                        },
+                        "title": {
+                            "es": "App SID:",
+                            "en": "App SID:"
+                        },
+                        "help": {
+                            "es": "Obtén tu app_sid y app_key en https://dashboard.groupdocs.cloud (se requiere registro gratuito).",
+                            "en": "Get your app_sid and app_key at https://dashboard.groupdocs.cloud (free registration is required)."
+                        },
+                        "id": "app_sid",
+                        "css": "col-md-12"
+                    },
+                    {
+                        "type": "input",
+                        "placeholder": {
+                            "es": "6e8f59b4401b3677879d049ahjcbfe4327d2",
+                            "en": "6e8f59b4401b3677879d049ahjcbfe4327d2"
+                        },
+                        "title": {
+                            "es": "App Key:",
+                            "en": "App Key:"
+                        },
+                        "help": {
+                            "es": "Obtén tu app_sid y app_key en https://dashboard.groupdocs.cloud (se requiere registro gratuito).",
+                            "en": "Get your app_sid and app_key at https://dashboard.groupdocs.cloud (free registration is required)."
+                        },
+                        "id": "app_key",
+                        "css": "col-md-12"
+                    },
+                    {
+                        "type": "file_select",
+                        "placeholder": {
+                            "es": "C:\\Users\\User\\Desktop\\sample.pdf",
+                            "en": "C:\\Users\\User\\Desktop\\sample.pdf"
+                        },
+                        "title": {
+                            "es": "Archivo PDF:",
+                            "en": "PDF File:"
+                        },
+                        "id": "path_pdf",
+                        "css": "col-md-12"
+                    },
+                    {
+                        "type": "file_new",
+                        "placeholder": {
+                            "es": "C:\\Users\\User\\Desktop\\sample.docx",
+                            "en": "C:\\Users\\User\\Desktop\\sample.docx"
+                        },
+                        "title": {
+                            "es": "Ruta donde guardar Archivo Word:",
+                            "en": "Path to save Word file:"
+                        },
+                        "help": {
+                            "es": "Ingresar extensión .docx",
+                            "en": "Write .docx extension"
+                        },
+                        "id": "path_word",
+                        "css": "col-md-12"
+                    }
+                ]
+            },
+            "video_youtube": "aMV6cXPMMSo",
+            "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyOCAxNzAiIGhlaWdodD0iMTcwcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjggMTcwIiB3aWR0aD0iMTI4cHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnPjxwYXRoIGQ9Ik02My43OTgsMTIxSDU5djIyaDUuNDIyYzMuNzA5LDAsNi41Ni0xLjAyMyw4LjU1NC0yLjg5NmMxLjk5My0xLjg3MSwyLjk5LTQuNjM3LDIuOTktOC4yMDcgICBzLTAuOTk3LTYuMjAyLTIuOTktOC4xMjdDNzAuOTgxLDEyMS44NDYsNjcuOTIzLDEyMSw2My43OTgsMTIxeiIgZmlsbD0iIzIzMUYyMCIvPjxwYXRoIGQ9Ik0zNy43MjEsMTIyLjEzNmMtMS4yNjctMC44ODQtMy4yMzMtMS4xMzYtNS45MDItMS4xMzZIMjd2MTJoNS42NWMyLjcwNCwwLDQuNTQxLTAuNjI2LDUuNTEyLTEuNzE4ICAgYzAuOTcxLTEuMDkzLDEuNDU2LTIuNjMxLDEuNDU2LTQuNzI5QzM5LjYxOCwxMjQuNDU2LDM4Ljk4NSwxMjMuMDIsMzcuNzIxLDEyMi4xMzZ6IiBmaWxsPSIjMjMxRjIwIi8+PHBhdGggZD0iTTEyNy42MTMsMjlsMC4wMDQtMC4wMDRMOTksMC4zNzlWMGgtMC4zNzlsLTAuMTE3LTAuMTE3TDk4LjM4NywwSDEwQzQuNDc4LDAsMCw0LjQ3NywwLDEwdjE1MCAgIGMwLDUuNTIzLDQuNDc4LDEwLDEwLDEwaDEwOGM1LjUyMiwwLDEwLTQuNDc3LDEwLTEwVjI5SDEyNy42MTN6IE00NC4wMTMsMTM2LjgxMUM0MS4zOTUsMTM4Ljg5LDM3LjM5OSwxNDAsMzIuMDI2LDE0MEgyN3YxMGgtOCAgIHYtMzZoMTIuOTIzYzUuNTgxLDAsOS42NDYsMC45MSwxMi4xOTMsMy4wNzZjMi41NDgsMi4xNjcsMy44MjIsNS40NDMsMy44MjIsOS45MzJDNDcuOTM4LDEzMS40OTgsNDYuNjMsMTM0LjczLDQ0LjAxMywxMzYuODExeiAgICBNNzkuMDYsMTQ1LjA2MUM3NS42OCwxNDguMzU0LDcwLjUyMiwxNTAsNjMuNTksMTUwSDUxdi0zNmgxMy4wMDZjNi40ODEsMCwxMS40NTcsMS40MTIsMTQuOTI0LDQuNTg0ICAgYzMuNDY2LDMuMTcyLDUuMiw3LjQ5Niw1LjIsMTMuMTQ2Qzg0LjEzLDEzNy4zODIsODIuNDM5LDE0MS43NjgsNzkuMDYsMTQ1LjA2MXogTTExMywxMjFIOTZ2OGgxNnY3SDk2djE0aC04di0zNmgyNVYxMjF6IE0xMDksMjkgICBjLTUuNTIyLDAtMTAtNC40NzctMTAtMTBWNC42MjJMMTIzLjM3OSwyOUgxMDl6IiBmaWxsPSIjMjMxRjIwIi8+PC9nPjwvc3ZnPg==",
+            "module": "pdf2word",
+            "module_name": "pdf2word",
+            "visible": true,
+            "options": false,
+            "father": "module",
+            "group": "scripts",
+            "linux": true,
+            "windows":true,
+            "mac":true,
+            "docker":true
+        }
+    ]
+}
